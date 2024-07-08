@@ -189,7 +189,7 @@ userSchema.pre("save", async function (next) {
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
    EMAIL_USER=your_email@example.com
-   EMAIL_PASS=your_email_password
+   SENDGRID_API_KEY = your_sengrid_account_api_key
    ```
 
 4. **Run the application:**
